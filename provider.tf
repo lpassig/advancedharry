@@ -2,7 +2,7 @@ terraform {
   cloud {
     organization = "propassig"
     workspaces {
-      name = "AWS_Project_Harry"
+      name = "AWS_Self_Service_Project_Harry"
     }
   }
   required_providers {

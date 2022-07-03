@@ -3,5 +3,5 @@ variable "AWS_REGION" {
 }
 
 variable "NAME" {    
-    default = "harry"
+    default = "harryselfservice"
 }

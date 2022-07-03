@@ -15,6 +15,9 @@
 module "lz" {
   source  = "app.terraform.io/propassig/lz/aws"
   version = "1.0.0"
+  
+  NAME       = var.NAME
+  AWS_REGION = var.AWS_REGION
 }
 
 module "s3-bucket" {
